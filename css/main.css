@@ -18,4 +18,18 @@
         position: relative;
         top: -30px;
     }
+
+    .footer-section {
+        position: fixed;
+        bottom: 0;
+        padding-left: 30vw;
+        background-color: black;
+        width: 100%;
+    }
+
+    .copyright-info {
+        font-size: 9px;
+        color: white;
+        font-family: sans-serif;
+    }
 }
