@@ -42,7 +42,8 @@ body {
         background-color: black;
         text-align: center;
         padding: 5vh 5vw;
-        margin-bottom: 20vh;
+        margin-bottom: 13vh;
+        margin-top: -2vh;
     }
 
     .personal-summary {
