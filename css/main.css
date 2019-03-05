@@ -31,24 +31,78 @@ body {
     }
 
     .copyright-info {
-        font-size: 9px;
+        font-size: 0.4em;
         color: white;
         font-family: sans-serif;
-        float: right;
-        margin-right: 2vw;
+        margin-left: 2vw;
     }
 
     .summary-section {
         background-color: black;
         text-align: center;
         padding: 5vh 5vw;
-        margin-bottom: 13vh;
+        margin-bottom: 11vh;
         margin-top: -2vh;
+        z-index: -1;
     }
 
     .personal-summary {
         font-size: 0.6em;
         line-height: 1.5em;
         color: white;
+    }
+
+    .menu {
+        margin-bottom: 10vh;
+        position: relative;
+        display: inline-block;
+    }
+
+    .menu-btn {
+        position: fixed;
+        bottom: 7vh;
+        right: 4vw;
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background-color: white;
+        border: none;
+        opacity: 0.5;
+        z-index: 2;
+    }
+
+    .menu-btn:active {
+        opacity: 1;
+    }
+
+    .menu-icon {
+        padding: 5px;
+        background-color: white;
+        box-shadow: 1px 1px 20px rgba(0, 0, 0, 0.2);
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        position: fixed;
+        bottom: 7vh;
+        right: 4vw;
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;  
+    }
+
+    .menu-options {
+        display: none;
+        position: absolute;
+        left: 65vw;
+        bottom: 4vh;
+        border-radius: 5%;
+        padding: 2vh 2vw;
+        background-color: white;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+    }
+
+    .menu-options a {
+        text-decoration: none;
+        font-size: 9px;
+        display: block;
     }
 }
